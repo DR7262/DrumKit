@@ -1,0 +1,32 @@
+html {
+    font-size: 10px;
+    background: url('./background.jpg') bottom center;
+    background-size: cover;
+}
+
+.keys {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex: 1;
+}
+
+.key {
+    border: .5rem solid black;
+    border-radius: .5rem;
+    padding: 1rem .5rem;
+    margin: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 10rem;
+    background-color:rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+    transition:all 0.7s;
+}
+
+.playing {
+    transform:scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
